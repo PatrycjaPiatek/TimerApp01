@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Timer Patrycja Piątek</string>
+    <!--<string name="enter_description">Enter Description</string>-->
+    <string name="add_record">add session</string>
+    <string name="enter_title">Enter Title</string>
+    <string name="enter_subject">what\'s my name</string>
+    <string name="update">update</string>
+    <string name="delete">delete</string>
+    <string name="timer">timer</string>
+    <string name="list">list</string>
+    <string name="start_time">start</string>
+    <string name="end_time">end</string>
+<!--    <string name="pause_time">pause</string>-->
+    <string name="reset_time">reset</string>
+    <string name="continue_time">continue</string>
+    <string name="empty_list">your list is empty</string>
+    <string name="pause_time">pause</string>
+</resources>

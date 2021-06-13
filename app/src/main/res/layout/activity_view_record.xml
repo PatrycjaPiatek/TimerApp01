@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:id="@+id/id"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="60dp"
+        android:padding="3dp"
+        android:textAlignment="center"
+        android:textColor="@color/purple_200"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="401dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-61dp"
+        android:layout_toRightOf="@+id/id"
+        android:maxLines="1"
+        android:padding="3dp"
+        android:textAlignment="center"
+        android:textColor="@color/purple_200"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="401dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:layout_marginLeft="-61dp"
+        android:layout_toRightOf="@+id/id"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:padding="3dp"
+        android:rotationX="0"
+        android:textAlignment="center"
+        android:textColor="@color/teal_200"
+        android:textSize="64sp"
+        android:textStyle="bold"
+        android:visibility="visible" />
+
+</RelativeLayout>

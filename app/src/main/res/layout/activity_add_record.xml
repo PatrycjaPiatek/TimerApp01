@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@drawable/background1">
+
+    <EditText
+        android:id="@+id/subject_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/enter_subject"
+        android:inputType="text"
+        android:singleLine="false"
+        android:textAlignment="center"
+        android:textColor="@color/teal_200"
+        android:textColorHighlight="#FFFFFF"
+        android:textColorLink="@color/purple_200"
+        android:textCursorDrawable="?android:attr/textCursorDrawable"
+        android:textSize="20sp"
+        android:textStyle="bold">
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/time_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:ems="10"
+        android:text="text"
+        android:textAlignment="center"
+        android:textColor="@color/teal_200"
+        android:textColorLink="@color/purple_200"
+        android:textSize="64sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/add_record"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/bgbtnpurple"
+        android:text="@string/add_record"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+</LinearLayout>
